@@ -7,6 +7,10 @@ class Position
 public:
     Position(double x, double y);
     ~Position();
+    void setPosition(double XNew, double YNew);
+
+    double getXPosition ();
+    double getYPosition ();
 
     // Legg til get- og set-funksjoner her.
 
